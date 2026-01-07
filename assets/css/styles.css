@@ -312,6 +312,7 @@ img {
 .about__img {
     width: 250px;
     justify-self: center;
+    margin: 0 auto; /* Refuerza el centrado horizontal */
     order: -1; /* La foto aparece primero en móviles */
 }
 
@@ -665,7 +666,6 @@ img {
 /* =============== MEDIA QUERIES =============== */
 @media screen and (min-width: 576px) {
     .home__container,
-    .about__container,
     .skills__container,
     .projects__container,
     .contact__container {
@@ -705,7 +705,9 @@ img {
     }
     
     .about__container {
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 5rem;
+        align-items: center;
     }
 
     .about__data {
