@@ -310,14 +310,16 @@ img {
 }
 
 .about__img {
-    width: 280px;
+    width: 250px;
     justify-self: center;
+    order: -1; /* La foto aparece primero en móviles */
 }
 
 .about__img-file {
     border-radius: 1.5rem;
     box-shadow: 0 8px 24px rgba(var(--hue), var(--sat), 15%, 0.15);
     transition: .4s;
+    width: 100%; /* Asegura que la imagen ocupe todo su contenedor */
 }
 
 .about__img-file:hover {
@@ -708,6 +710,11 @@ img {
 
     .about__data {
         text-align: left;
+    }
+
+    .about__img {
+        width: 280px;
+        order: 1; /* Vuelve a la derecha en PC */
     }
 
     .contact__form {
