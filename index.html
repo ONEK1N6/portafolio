@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Estudiante de Ingeniería de Sistemas</title>
+    <meta name="description" content="Portafolio profesional de estudiante de Ingeniería de Sistemas. Desarrollo web, backend y bases de datos.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <!-- Iconos (FontAwesome Free CDN para iconos básicos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">DevPortafolio<span class="dot">.</span></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Inicio</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre mí</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Proyectos</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link nav__cta">Contactar</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Sección Inicio -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">Hola, soy</span>
+                    <h1 class="home__title">King Serpa</h1>
+                    <h3 class="home__education">Estudiante de Ingeniería de Sistemas</h3>
+                    <p class="home__description">
+                        Futuro ingeniero apasionado por el desarrollo de software y la resolución de problemas complejos. 
+                        Buscando oportunidades de prácticas preprofesionales para aplicar mis conocimientos en desarrollo web y backend.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#projects" class="button">Ver Proyectos</a>
+                        <a href="assets/documents/CV_King_Serpa.pdf" download="" class="button button--ghost">
+                            Descargar CV <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+                    <div class="home__social">
+                        <a href="https://github.com/ONEK1N6" target="_blank" class="home__social-icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/king-brayan-serpa-chate-9b7563380/" target="_blank" class="home__social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="home__image">
+                    <!-- Placeholder visual hecho con CSS -->
+                    <div class="blob-img">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Mí -->
+        <section class="about section" id="about">
+            <h2 class="section__title">Sobre Mí</h2>
+            <span class="section__subtitle">Mi perfil profesional</span>
+
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <p class="about__description">
+                        Actualmente cursando el <strong>6.º ciclo de Ingeniería de Sistemas</strong>. 
+                        Me caracterizo por ser autodidacta, responsable y con gran capacidad de trabajo en equipo.
+                        Durante mi formación académica, he liderado proyectos de aula enfocados en la gestión de datos y desarrollo de aplicaciones web.
+                    </p>
+                    
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class="fa-solid fa-graduation-cap about__icon"></i>
+                            <h3 class="about__title">Educación</h3>
+                            <span class="about__subtitle">6.º Ciclo - Universidad Peruana Unión</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="fa-solid fa-briefcase about__icon"></i>
+                            <h3 class="about__title">Experiencia</h3>
+                            <span class="about__subtitle">Proyectos Académicos</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="fa-solid fa-laptop-code about__icon"></i>
+                            <h3 class="about__title">Disponibilidad</h3>
+                            <span class="about__subtitle">Remoto / Part-time</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about__img">
+                    <img src="assets/img/yo.png" alt="Foto de Perfil" class="about__img-file">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Habilidades -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Habilidades Técnicas</h2>
+            <span class="section__subtitle">Mi stack tecnológico</span>
+
+            <div class="skills__container container grid">
+                <!-- Frontend -->
+                <div class="skills__content">
+                    <h3 class="skills__title"><i class="fa-solid fa-code"></i> Frontend</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">HTML5</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">CSS3</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Angular</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skills__content">
+                    <h3 class="skills__title"><i class="fa-solid fa-server"></i> Backend & DB</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__level">Intermedio</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Postgres</h3>
+                                    <span class="skills__level">Básico</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Básico</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Oracle</h3>
+                                    <span class="skills__level">Básico</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Herramientas -->
+                <div class="skills__content">
+                    <h3 class="skills__title"><i class="fa-solid fa-screwdriver-wrench"></i> Herramientas</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Git / GitHub</h3>
+                                    <span class="skills__level">Control de versiones</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">VS Code</h3>
+                                    <span class="skills__level">IDE Principal</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <h3 class="skills__name">IntelliJ IDEA</h3>
+                                    <span class="skills__level">IDE Principal</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Proyectos</h2>
+            <span class="section__subtitle">Mis trabajos recientes</span>
+
+            <div class="projects__container container grid">
+                <!-- Proyecto 1 -->
+                <article class="project__card">
+                    <div class="project__image">
+                        <img src="assets/img/panel.jpg" alt="Sistema de Gestión de Biblioteca" class="project__img">
+                    </div>
+                    <div class="project__data">
+                        <h3 class="project__title">Sistema de Gestión de Pagos - Colegio</h3>
+                        <p class="project__description">
+                            Aplicación de escritorio desarrollada en Java con conexión a Postgres para administrar usuarios y gestion de pagos(no incluye una gestion de pagos verdadera).
+                        </p>
+                        <div class="project__tags">
+                            <span>Java</span>
+                            <span>Postgres</span>
+                            <span>Angular</span>
+                        </div>
+                        <div class="project__links">
+                            <a href="#" class="project__link button button--small button--ghost">
+                                Código <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2 -->
+                <article class="project__card">
+                    <div class="project__image">
+                        <img src="assets/img/proyecto2.jpg" alt="E-commerce" class="project__img">
+                    </div>
+                    <div class="project__data">
+                        <h3 class="project__title">E-commerce</h3>
+                        <p class="project__description">
+                            Página web para una tienda de productos, solo backend.<br>
+<br>
+<br>
+
+                        </p>
+                        <div class="project__tags">
+                            <span>Java</span>
+                            <span>Postgres</span>
+    
+                        </div>
+                        <div class="project__links">
+                            <a href="https://github.com/PROYECTO2-INTEGRADOR4/DAD-E-COMMERCE-.git" class="project__link button button--small button--ghost" target="_blank">
+                                Código <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="#" class="project__link button button--small">
+                                Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección Educación -->
+        <section class="education section">
+            <h2 class="section__title">Educación</h2>
+            <span class="section__subtitle">Mi trayectoria académica</span>
+
+            <div class="education__container container">
+                <div class="education__content">
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+                    <div class="education__data bd-grid">
+                        <h3 class="education__title">Ingeniería de Sistemas</h3>
+                        <span class="education__studies">Universidad Peruana Unión</span>
+                        <span class="education__year">2023 - Presente (6.º Ciclo)</span>
+                    </div>
+                </div>
+                
+                <div class="education__content">
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <!-- <span class="education__line"></span> -->
+                    </div>
+                    <div class="education__data bd-grid">
+                        <h3 class="education__title">Inglés Técnico</h3>
+                        <span class="education__studies">Instituto de Idiomas Upeu</span>
+                        <span class="education__year">2024 - Nivel Intermedio</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contacto</h2>
+            <span class="section__subtitle">Ponte en contacto conmigo</span>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Hablemos</h3>
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="fa-regular fa-envelope contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">kingserpa24@gmail.com</span>
+                            <a href="mailto:estudiante@email.com" class="contact__button">Escribir <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        <div class="contact__card">
+                            <i class="fa-brands fa-whatsapp contact__card-icon"></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">927-567-419</span>
+                            <a href="https://wa.me/51927567419?text=Hola,%20vi%20tu%20portafolio%20y%20me%20gustaría%20contactarte." target="_blank" class="contact__button">Escribir <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Escríbeme tu proyecto o consulta</h3>
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Nombre</label>
+                            <input type="text" placeholder="Inserta tu nombre" class="contact__form-input" required>
+                        </div>
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Email</label>
+                            <input type="email" placeholder="Inserta tu email" class="contact__form-input" required>
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Mensaje</label>
+                            <textarea cols="30" rows="10" placeholder="Escribe tu mensaje" class="contact__form-input" required></textarea>
+                        </div>
+                        <button class="button">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">King Serpa</h1>
+            <ul class="footer__list">
+                <li><a href="#about" class="footer__link">Sobre mí</a></li>
+                <li><a href="#projects" class="footer__link">Proyectos</a></li>
+                <li><a href="#skills" class="footer__link">Habilidades</a></li>
+            </ul>
+            <div class="footer__social">
+                <a href="#" class="footer__social-link"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="footer__social-link"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="footer__social-link"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <span class="footer__copy">&#169; 2026 King Serpa. Todos los derechos reservados.</span>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

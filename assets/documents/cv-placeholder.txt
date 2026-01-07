@@ -1,0 +1,2 @@
+Este es un archivo de marcador de posición para tu Curriculum Vitae.
+Por favor, reemplaza este archivo con tu CV real en formato PDF (ej. cv-juan-perez.pdf) y actualiza el enlace en index.html.
