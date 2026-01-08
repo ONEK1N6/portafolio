@@ -112,7 +112,7 @@ img {
 .section__subtitle {
     display: block;
     font-size: var(--small-font-size);
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -298,7 +298,9 @@ img {
 /* =============== ABOUT =============== */
 .about__container {
     gap: 2.5rem;
+    display: grid;
     align-items: center;
+    justify-items: center;
 }
 
 .about__data {
@@ -311,7 +313,8 @@ img {
 
 .about__img {
     width: 250px;
-    justify-self: center;
+    display: flex;
+    justify-content: center;
     margin: 0 auto; /* Refuerza el centrado horizontal */
     order: -1; /* La foto aparece primero en móviles */
 }
